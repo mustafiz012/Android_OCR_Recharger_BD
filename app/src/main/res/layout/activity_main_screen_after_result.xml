@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreenAfterResult">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Banglalink"
+                android:id="@+id/banglalink"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="GrameenPhone"
+                android:id="@+id/grameen"
+                android:layout_below="@+id/banglalink"
+                android:layout_alignRight="@+id/banglalink"
+                android:layout_alignEnd="@+id/banglalink"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Airtel"
+                android:id="@+id/airtel"
+                android:layout_below="@+id/grameen"
+                android:layout_alignRight="@+id/grameen"
+                android:layout_alignEnd="@+id/grameen"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Robi"
+                android:id="@+id/robi"
+                android:layout_below="@+id/airtel"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Teletalk"
+                android:id="@+id/teletalk"
+                android:layout_below="@+id/robi"
+                android:layout_alignRight="@+id/robi"
+                android:layout_alignEnd="@+id/robi"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Citycell"
+                android:id="@+id/citycell"
+                android:layout_below="@+id/teletalk"
+                android:layout_alignRight="@+id/teletalk"
+                android:layout_alignEnd="@+id/teletalk"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Hidden code"
+                android:id="@+id/codeShowing"
+                android:gravity="center"
+                android:textColor="@android:color/holo_orange_dark"
+                android:layout_below="@+id/again"
+                android:layout_marginTop="41dp"
+                android:layout_alignRight="@+id/again"
+                android:layout_alignEnd="@+id/again"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Again"
+                android:id="@+id/again"
+                android:layout_below="@+id/citycell"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="39dp"
+                android:layout_alignRight="@+id/citycell"
+                android:layout_alignEnd="@+id/citycell"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
